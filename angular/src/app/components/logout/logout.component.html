@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="d-flex justify-content-center mt-5">
+    <div class="card">
+      <h5 class="card-header">Salir</h5>
+      <div class="card-body">
+        <p class="card-text">Desea Salir de todos los dispositivos?</p>
+        <div class="row mb-3">
+          <div class="col">
+            <input type="checkbox" name="allDevices" [(ngModel)]="checkbox"> Todos los dispositivos
+          </div>
+        </div>
+        <button class="btn btn-info" (click)="logout()">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
